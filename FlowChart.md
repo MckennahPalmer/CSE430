@@ -1,7 +1,7 @@
 **************This is a bug*******************
 
 
-![flowchart](https://github.com/MckennahPalmer/CSE430/blob/Test_IC/Flowchart1%20-%20bad.jpg)
+![flowchart](https://github.com/MckennahPalmer/CSE430/blob/Test_IC/Flowchart2%20-%20good.jpg)
 
 A flowchart is a visual representation of a process, system, or algorithm. It uses standardized symbols to represent various steps, decisions, inputs, and outputs within a workflow. Flowcharts are widely used in various fields, including software development, business process modeling, project management, education, and more, to help individuals understand, document, and communicate complex processes.
 
