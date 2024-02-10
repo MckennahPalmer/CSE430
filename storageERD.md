@@ -1,2 +1,2 @@
-[a relative link](Entity Relationship Diagram Storage.png)
-[a relative link](Entity Relationship Diagram Storage Information Table.docx)
+![ERD](Entity Relationship Diagram Storage.png)
+![ERD Info](Entity Relationship Diagram Storage Information Table.docx)
