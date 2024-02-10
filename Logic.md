@@ -1,4 +1,4 @@
-![Logic Component](Logic_FlowChart.drawio.png)
+![Logic Component](TeamTwoFiles/Logic_FlowChart.drawio.png)
 
 | Name | 1.2.1 Logic Component |
 | ----------- | ----------- |
