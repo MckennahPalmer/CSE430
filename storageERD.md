@@ -1,2 +1,2 @@
-![ERD](Entity Relationship Diagram Storage.png)
-![ERD Info](Entity Relationship Diagram Storage Information Table.docx)
+![ERD](Entity%20Relationship%20Diagram%20Storage.png)
+![ERD Info](Entity%20Relationship%20Diagram%20Storage%20Information%20Table.docx)
