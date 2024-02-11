@@ -1,0 +1,10 @@
+![Algorithm Component](TeamTwoFiles/AlgorithmComponentDiagram.svg)
+
+| Name | 1.2.1 Algorithm Component |
+| ----------- | ----------- |
+| Purpose | Minimize the time required for students to register for classes. Minimize walk-in distance from class to class. Empower students to generate customized schedules.  |
+| Description | This program presents the required classes for a given major, allows the students to place the required class in a semester plan, and sends the semester plan to the registration system. It also allows the student to auto-generate a plan considering the location of a class, the ratings of a professor, and other student-specified preferences. |
+| Requirements | Requirement 9-16  |
+| Elements | 1.2.1.1 Semester plan, 1.2.1.2 Score Sheet, 1.2.1.3 Jarvis Suggests|
+| Referenced by | 1.2 Logic Component  |
+| Viewpoint | Component Diagram |

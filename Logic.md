@@ -1,0 +1,10 @@
+![Logic Component](TeamTwoFiles/Logic_FlowChart.drawio.png)
+
+| Name | 1.2.1 Logic Component |
+| ----------- | ----------- |
+| Purpose | Back-facing element that is responsible for making decisions and validating output. |
+| Description | It ensures that the software executes specific instructions or algorithms depending on the input or current state. |
+| Requirements | Requirements 2, 9-16  |
+| Elements | 1.2.1 Algorithm, 1.2.2 Controller |
+| Referenced by | 1.0 EnrollEase  |
+| Viewpoint | Flowchart |
