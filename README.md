@@ -21,7 +21,5 @@
 #### 1.2.2.2 Major Selection
 #### 1.2.2.3 Front-end Data
 #### 1.2.2.4 Request to Database
-&nbsp;
-### 1.2.3 *Controller Storage?*
 -----------------------------------------------------------
 ## 1.3 Storage
