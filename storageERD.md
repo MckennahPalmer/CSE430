@@ -1,4 +1,4 @@
-![ERD](Entity%20Relationship%20Diagram%20Storage.png)
+![ERD](TeamOneFiles/Entity%20Relationship%20Diagram%20Storage.png)
 <br>
 | Name | 1.3.8 Storage View |
 | ----------- | ----------- |
