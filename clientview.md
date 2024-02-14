@@ -20,6 +20,6 @@
             Email 
             hometown 
             phone number 
-            Announcements |
+            Announcements 
 | Referenced by | 1.0 EnrollEase  |
 | Viewpoint | DFD |
