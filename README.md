@@ -25,7 +25,7 @@
 ## 1.3 Storage
 ### 1.3.1 *Federator*
 ### 1.3.2 *Scheduling Database*
-### 1.3.3 *External Databse*
+### 1.3.3 *External Database*
 ### 1.3.4 *Shibboleth*
 ### 1.3.5 *Jenzabar*
 ### 1.3.6 *Interactive Map*
