@@ -5,6 +5,6 @@
 | Purpose | The User’s view of the webpages |
 | Description | The overview of what the user sees when they visit the website. It takes them to a login page where they can then go to there profile or design their schedule. The website is then stored as session storage to make it so that they can log back in as needed.  |
 | Requirements | TBD |
-| Elements | 1.1.1.1 Login <br> 1.1.1.2 Profile <br> 1.1.1.3 Schedule Designer <br> 1.1.1.4 Session Storage <br> 1.1.2 Server |
+| Elements | 1.1.1.1 Login <br> 1.1.1.2 Profile <br> 1.1.1.3 Schedule Designer <br> 1.1.1.4 Homepage <br> 1.1.1.5 Session Storage <br> 1.1.1.6 Cookies <br> 1.1.2 Server <br> Credentials <br> ID <br> IP address <br> Major <br> Graduation <br> email <br> hometown <br> phone number <br> Announcements|
 | Referenced by | 1.0 EnrollEase  |
 | Viewpoint | DFD |
