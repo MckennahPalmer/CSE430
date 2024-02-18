@@ -24,15 +24,9 @@
 -----------------------------------------------------------
 ## 1.3 Storage
 ### 1.3.1 *Federator*
-&nbsp;
 ### 1.3.2 *Scheduling Database*
-&nbsp;
-### 1.3.3 *External Databse*
-&nbsp;
+### 1.3.3 *External Database*
 ### 1.3.4 *Shibboleth*
-&nbsp;
 ### 1.3.5 *Jenzabar*
-&nbsp;
 ### 1.3.6 *Interactive Map*
-&nbsp;
 ### 1.3.7 *RateMyProfessor*
