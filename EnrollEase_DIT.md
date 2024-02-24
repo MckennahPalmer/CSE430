@@ -8,7 +8,16 @@
 | Elements | 1.1 Web Interface |
 |          | 1.1.1 Client Views |
 |          | 1.1.2 Server |
-|  | 1.2 Logic |
-|  | 1.3 Storage |
+|          | 1.2 Logic |
+|          | 1.2.1 Algorithm |
+|          | 1.2.2 Controller |
+|          | 1.3 Storage |
+|          | 1.3.1 Federator |
+|          | 1.3.2 Scheduling Database |
+|          | 1.3.3 External Database |
+|          | 1.3.4 Shibboleth |
+|          | 1.3.5 Jenzabar |
+|          | 1.3.6 Interactive Map |
+|          | 1.3.7 Rate My Professor |
 | Referenced by | N/A |
 | Viewpoint | Component Diagram |
