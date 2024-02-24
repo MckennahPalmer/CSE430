@@ -6,6 +6,8 @@
 | Description | This program presents the required classes for a given major, allows the students to place the required class in a semester plan, and sends the semester plan to the registration system. It also allows the student to auto-generate a plan considering the location of a class, the ratings of a professor, and other student-specified preferences. |
 | Requirements | All |
 | Elements | 1.1 Web Interface |
+|          | 1.1.1 Client Views |
+|          | 1.1.2 Server |
 |  | 1.2 Logic |
 |  | 1.3 Storage |
 | Referenced by | N/A |
