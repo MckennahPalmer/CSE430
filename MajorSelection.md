@@ -1,4 +1,4 @@
-![Design Document](TeamTwoFiles/MajorSelection.drawio.svg)
+![Design Document](TeamTwoFiles/MajorSelection.svg)
 
 | Name | 1.2.2.2 Major Selection |
 | ----------- | ----------- |
