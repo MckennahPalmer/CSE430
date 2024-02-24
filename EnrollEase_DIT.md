@@ -1,4 +1,4 @@
-![EnrollEase First View](EnrollEaseComponentDiagram.svg)
+![EnrollEase First View](EnrollEaseComponentDiagram_v2.drawio.svg)
 
 | Name | 1.0 EnrollEase |
 | ----------- | ----------- |
