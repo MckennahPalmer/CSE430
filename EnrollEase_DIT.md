@@ -19,5 +19,7 @@
 |          | 1.3.5 Jenzabar |
 |          | 1.3.6 Interactive Map |
 |          | 1.3.7 Rate My Professor |
+|  | 1.2 Logic |
+|  | 1.3 Storage |
 | Referenced by | N/A |
 | Viewpoint | Component Diagram |
