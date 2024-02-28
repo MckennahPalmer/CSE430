@@ -21,7 +21,19 @@
 #### 1.2.2.2 Major Selection
 #### 1.2.2.3 Front-end Data
 #### 1.2.2.4 Request to Database
+<<<<<<< HEAD
 &nbsp;
 ### 1.2.3 *Controller Storage?*
 -----------------------------------------------------------
 ## 1.3 Storage
+=======
+-----------------------------------------------------------
+## 1.3 Storage
+### 1.3.1 *Federator*
+### 1.3.2 *Scheduling Database*
+### 1.3.3 *External Database*
+### 1.3.4 *Shibboleth*
+### 1.3.5 *Jenzabar*
+### 1.3.6 *Interactive Map*
+### 1.3.7 *RateMyProfessor*
+>>>>>>> 96cde566f725fb01629db17c70da7eae0b6a9e7c
