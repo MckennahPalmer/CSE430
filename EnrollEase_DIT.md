@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-![EnrollEase First View](EnrollEase.png)
-
-![EnrollEase Design Information Table](EnrollEase_DIT.png)
-=======
 ![EnrollEase First View](EnrollEaseComponentDiagram_v3.drawio.svg)
 
 | Name | 1.0 EnrollEase |
@@ -28,4 +23,3 @@
 |  | 1.3 Storage |
 | Referenced by | N/A |
 | Viewpoint | Component Diagram |
->>>>>>> 96cde566f725fb01629db17c70da7eae0b6a9e7c
