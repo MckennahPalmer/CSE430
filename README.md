@@ -36,4 +36,3 @@
 ### 1.3.5 *Jenzabar*
 ### 1.3.6 *Interactive Map*
 ### 1.3.7 *RateMyProfessor*
->>>>>>> 96cde566f725fb01629db17c70da7eae0b6a9e7c
