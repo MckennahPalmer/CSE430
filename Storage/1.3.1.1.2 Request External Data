@@ -1,0 +1,18 @@
+![RequestExternalData Flowchart](TeamOneFiles/1.3.1.1.2.RequestExternalData.drawio.svg)
+
+| Name | 1.3.1.1.2 RequestExternalData |
+| ------------- | ----------- |
+| Purpose       | Determine which external dependency needs to be called. |
+| Description   | At this point in the program, a request from Logic has been received and already converted to SQL. It is within the SQL that the target dependency will be determined. |
+| Requirements  | 7-10 |
+| Elements      | Target Dependency |
+|               | Jenzabar | 
+|               | Shibboleth | 
+|               | RateMyProfessor | 
+|               | BYU-I Interactive Map | 
+|               | Use Jenzabar Proxy | 
+|               | Use Shibboleth Proxy | 
+|               | Use RMP Proxy | 
+|               | Use Map Proxy | 
+| Referenced by | 1.1.1 Client Views | 
+| Viewpoint     | Data Flow Diagram |
