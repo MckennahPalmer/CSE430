@@ -1,0 +1,20 @@
+1.2.2.3.1 createSuggestionPackage PsuedoCode
+
+createSuggestionPackage()
+	
+   // The package is created.
+   SuggestionPackage suggestionPackage
+	
+   suggestionPackage.userPreferences <- getUserPreferences()
+   suggestionPackage.currentPlan <- getCurrentPlan()
+   suggestionPackage.classData <- getClassData()
+   suggestionPackage.mapData <- getMapData()
+   suggestionPackage.professorData <- getProfessorData
+	
+   // The suggesstion is created from the package
+   jarvisSuggests <- createJarvisSuggestion(suggestionPackage)
+	
+   // The suggesstion is sent back.
+   RETURN jarvisSuggests
+	
+	
