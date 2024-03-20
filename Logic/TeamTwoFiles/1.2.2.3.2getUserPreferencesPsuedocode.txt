@@ -4,7 +4,14 @@ getUserPreferences( )
 
 	UserPreferences userPreferences
 	
+	raw_preferences <- federator.manageQueries(httpUserPrefRequest)
 	
+	userPreferences.classType <- raw_preferences["classType"]
+	userPreferences.walkTime <- raw_preferences["walkTime"]
+	userPreferences.professorScore <- raw_preferences["professorScore]
+	userPreferences.TOD <- raw_preferences["TOD"]
+	userPreferences.DOW <- raw_preferences["DOW"]
+	userPreferences.breakTime <- raw_preferences["breakTime"]
 	
 	RETURN userPreferences
 	
