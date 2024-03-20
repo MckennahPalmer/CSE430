@@ -1,0 +1,3 @@
+getProfessorData()
+   prof = federator.getData(profHttp);
+   return prof
