@@ -1,0 +1,8 @@
+1.2.2.1.1 Login Pseudocode
+
+login(credentials)
+	
+	IF authenticate(credentials)
+		RETURN successfulAuthenticationResponse
+	else
+		RETURN failedAuthenticationResponse
