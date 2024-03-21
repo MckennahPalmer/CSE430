@@ -1,0 +1,9 @@
+1.2.2.3.6 getProfessorData Pseudocode
+
+getProfessorData()
+
+   jsonProfessorData -> federator.manageQueries(professorDataHttpRequest)
+   
+   dictionaryProfessorData -> jsonProfessorData
+  
+   RETURN dictionaryProfessorData
