@@ -2,8 +2,8 @@
 
 getProfessorData()
 
-   jsonProfessorData -> federator.manageQueries(professorDataHttpRequest)
+   jsonProfessorData <- federator.manageQueries(professorDataHttpRequest)
    
-   dictionaryProfessorData -> jsonProfessorData
+   dictionaryProfessorData <- jsonProfessorData
   
    RETURN dictionaryProfessorData
