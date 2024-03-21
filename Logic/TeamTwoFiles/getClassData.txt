@@ -1,5 +1,5 @@
 1.2.2.3.4 getClassData Pseudocode
 
 GetClassData()
-   classData = Federator.manageQueries(classDataHTTP)
+   classData <- Federator.manageQueries(classDataHTTP)
    return classData
