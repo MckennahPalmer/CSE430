@@ -1,9 +1,9 @@
 1.2.2.4 manageRequest Pseudocode
 
 manageRequest()
-   authentication = authenticateLogin()
+   authentication <- authenticateLogin()
    IF (authentication)
-      jarvisSuggestion = prepareForAlgorithm()
-      major = selectAMajor()
+      jarvisSuggestion <- prepareForAlgorithm()
+      major <- selectAMajor()
       return jarvisSuggestion, major
 
