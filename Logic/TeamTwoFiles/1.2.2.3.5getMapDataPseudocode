@@ -1,0 +1,9 @@
+1.2.2.3.5 getMapData Pseudocode
+
+getMapData()
+
+   jsonMapdata -> federator.manageQueries(mapDataHttpRequest);
+   
+   dictionaryMapData -> jsonMapData
+   
+   RETURN dictionaryMapData
