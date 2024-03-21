@@ -2,8 +2,8 @@
 
 getMapData()
 
-   jsonMapdata -> federator.manageQueries(mapDataHttpRequest);
+   jsonMapdata <- federator.manageQueries(mapDataHttpRequest);
    
-   dictionaryMapData -> jsonMapData
+   dictionaryMapData <- jsonMapData
    
    RETURN dictionaryMapData
