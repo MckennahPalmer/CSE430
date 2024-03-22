@@ -1,0 +1,10 @@
+1.2.2.3.3 getCurrentPlan Pseudocode
+
+GetCurrentPlan()
+   currentPlan <- Federator.manageQueries(planHTTP)
+
+   SemesterPlan semesterPlan
+
+   semesterPlan.section.sectionCode <- currentPlan.sectionCode
+
+   return semesterPlan
