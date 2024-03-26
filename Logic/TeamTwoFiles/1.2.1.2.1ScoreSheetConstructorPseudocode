@@ -8,6 +8,5 @@ ScoreSheet::ScoreSheet(semesterPlan, suggestionPackage)
 	TODScore <- computeTODScore(semesterPlan)
 	DOWScore <- computeDOWScore(semesterPlan)
 	
-	totalScore <- computeTotalScore(totalProfessorScore, walkScore,
-									breakScore, TODScore, DOWScore)
+	totalScore <- computeTotalScore()
 	
