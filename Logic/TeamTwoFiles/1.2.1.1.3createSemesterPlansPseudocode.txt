@@ -1,0 +1,24 @@
+1.2.1.1.2 createSemesterPlans Pseudocode
+
+createSemesterPlans(suggestionPackage)
+
+	userData <- suggestionPackage.userData
+	major <- userData.userMajor
+	coursesTaken <- userData.coursesTaken
+	neededCourseCodes <- getNewClassCodes(userMajor, coursesTaken, suggestionPackage)
+	
+	combinations <- [[]]  # Initialize with an empty combination
+
+	FOR course IN neededCourseCodes:
+		new_combinations <- []
+		
+		FOR section IN course["sections"]:
+			FOR combination IN combinations:
+				new_combinations.append(combination + [section])
+		
+		combinations <- new_combinations
+
+	FOR combination IN combinations:
+		semesterPlans.append(semesterPlan(combination, suggestionPackage))
+
+	RETURN semesterPlans
