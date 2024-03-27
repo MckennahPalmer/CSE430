@@ -1,6 +1,6 @@
 1.2.2.2.1 findMajorAndMinor Pseudocode
 
-findMajorAndMinor(major, minor) 
+findMajorAndMinor(major, minor, majorData, minorData) 
 
    fullMajorData
    fullMinorData
