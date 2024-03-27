@@ -1,0 +1,11 @@
+1.2.1.1.3 createScoreSheets Pseudocode
+
+createScoreSheets(semesterPlans, suggestionPackage)
+	
+	scoreSheets <- []
+	
+	FOR semesterPlan IN semesterPlans
+		newSheet <- ScoreSheet(semesterPlan, suggestionPackage)
+		scoreSheets.append(newSheet)
+		
+	RETURN scoreSheets
