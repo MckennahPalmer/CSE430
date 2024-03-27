@@ -1,0 +1,16 @@
+1.2.1.1.4 getJarvisSuggestions Pseudocode
+
+getJarvisSuggestions(semesterPlans, scoreSheets)
+	
+	jarvisSuggestions <- []
+	
+	FOR i_suggestion IN range(0, len(semesterPlans)):
+	
+		JarvisSuggestion suggestion
+		
+		suggestion.semesterPlan <- semesterPlans[i_suggestion]
+		suggestion.scoreSheet <- scoreSheets[i_suggestion]
+		
+		jarvisSuggestions.append(suggestion)
+		
+	RETURN jarvisSuggestions
