@@ -1,0 +1,12 @@
+1.2.1.2.1 Score Sheet Constructor Pseudocode
+
+ScoreSheet::ScoreSheet(semesterPlan, suggestionPackage)
+	
+	totalProfessorScore <- calculateOverallProfessorScore(suggestionPackage, semesterPlan)
+	walkScore <- computeWalkScore(suggestionPackage, semesterPlan)
+	breakScore <- computeBreakScore(semesterPlan)
+	TODScore <- computeTODScore(semesterPlan)
+	DOWScore <- computeDOWScore(semesterPlan)
+	
+	totalScore <- computeTotalScore()
+	
