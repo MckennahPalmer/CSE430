@@ -1,0 +1,8 @@
+| Name | 1.3.1.1 b Manage Queries |
+| ----------- | ----------- |
+| Purpose | This processes and receives the data requests that the user queries. |
+| Description | The request checks if it's internal or external data and allows the user to register for classes. |
+| Requirements | TBD|
+| Elements | UML Class Diagram|
+| Referenced by | 1.3.1.1 Manage Queries |
+| Viewpoint | UML Class Diagram |
