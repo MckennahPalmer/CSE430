@@ -1,4 +1,4 @@
-1.2.1.2.5 computeWalkScore Pseudocode
+1.2.1.2.4 computeWalkScore Pseudocode
 
 computeWalkScore(SemesterPlan)
 
