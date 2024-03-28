@@ -1,0 +1,12 @@
+1.2.1.2.5 computeWalkScore Pseudocode
+
+computeWalkScore(SemesterPlan)
+
+   walkScore <- 0
+
+   for i_course in range(0, len(semesterPlan.sections) - 1)
+      walkScore += getWalkDistance(semesterPlan.sections[i_course].location, semesterPlan.sections[i_course + 1].location)
+
+   walkScore <- walkScore / len(semesterPlan.sections)
+
+   return walkScore
