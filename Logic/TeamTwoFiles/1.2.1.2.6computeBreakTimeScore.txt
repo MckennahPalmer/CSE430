@@ -4,10 +4,8 @@ computeBreakTimeScore(semesterPlan)
 
    timeScore <- 0
 
-   for i_course1 in range(0, len(semesterPlan.sections) - 1)
-      for i_course2 in range(1, len(semesterPlan.sections))
-
-         timeScore += getBreakTime(semesterPlan.sections[i_course1], semesterPlan.sections[i_course2])
+   for i_course in range(0, len(semesterPlan.sections) - 1)
+      timeScore += getBreakTime(semesterPlan.sections[i_course], semesterPlan.sections[i_course + 1])
 
    timeScore <- timeScore / len(semesterPlan.sections)
 
