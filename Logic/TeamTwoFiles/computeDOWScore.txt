@@ -5,7 +5,7 @@ computeDOWScore(semesterPlan, suggestionPackage)
         daysCounter = 0
         courseScore = 0 #this is a score for each individual course and thus must be reset each loop
         FOR day in course.days
-            IF (day in suggestionPackage.DOW) == true
+            IF (day in suggestionPackage.userPrefences.DOW) == true
                 courseScore += 100
             daysCounter += 1
         courseScore = courseScore / daysCounter
