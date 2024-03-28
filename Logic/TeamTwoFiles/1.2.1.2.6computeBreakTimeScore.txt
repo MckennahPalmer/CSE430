@@ -1,0 +1,14 @@
+1.2.1.2.6 computeBreakTimeScore Pseudocode
+
+computeBreakTimeScore(semesterPlan)
+
+   timeScore <- 0
+
+   for i_course in range(0, len(semesterPlan.sections) - 1)
+      timeScore += getBreakTime(semesterPlan.sections[i_course], semesterPlan.sections[i_course + 1])
+
+   timeScore <- timeScore / len(semesterPlan.sections)
+
+   return timeScore 
+      
+
