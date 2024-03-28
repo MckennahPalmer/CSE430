@@ -1,0 +1,23 @@
+computeTODScore(semesterPlan, suggestionPackage)
+    IF suggestionPackage.userPreferences.TOD == “Morning”
+        startTime = 8
+        endTime = 12
+    ELSE IF suggestionPackage.userPreferences.TOD == “Afternoon”
+        startTime = 12
+        endTime = 16
+    ELSE IF suggestionPackage.userPreferences.TOD == “Evening”
+        startTime = 16
+        endTime = 20
+    counter = 0 #a counter meant to count the number of times the for loop occurs
+    FOR course in semesterPlan.sections
+        counter += 1
+        IF course.startTime > startTime and course.startTime < endTime:
+            TODScore += 100
+        ELSE
+            IF course.startTime < startTime
+                TODScore += 100 – ( (startTime – course.startTime) * 10)
+            ELSE IF course.startTime > endTime
+                TODScore += 100 – ( (course.startTime – endTime) * 10)
+    TODScore = TODScore / counter
+    #The counter is used to take the total score and make it an Average.
+    RETURN TODScore
