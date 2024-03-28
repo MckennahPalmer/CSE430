@@ -12,6 +12,7 @@ getUserPreferences( )
 	userPreferences.TOD <- raw_preferences["TOD"]
 	userPreferences.DOW <- raw_preferences["DOW"]
 	userPreferences.breakTime <- raw_preferences["breakTime"]
-	
+	userPreferences.major <- raw_preferences["major"]
+
 	RETURN userPreferences
 	
