@@ -1,0 +1,13 @@
+1.2.1.3.6 getProfessorData Pseudocode
+
+getProfessorData(suggestionPackage, professorName, professorDept)
+	allProfessorData <- suggestionPackage.professorData
+	
+	FOR professorData IN allProfessorData:
+		IF professorData["professorName"] == professorName:
+			IF professorData["professorDept] == professorDept:
+				// Data found
+				RETURN professorData
+	
+	// Data not found
+	RETURN NULL

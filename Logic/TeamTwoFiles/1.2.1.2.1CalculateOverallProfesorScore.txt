@@ -1,0 +1,15 @@
+1.2.1.2.2 calculateOverallProfessorScore Pseudocode
+
+calculateOverallProfessorScore()
+
+   overallScore <- 0
+   totalProfessors <- 0 
+
+   for professor in suggestionPackage.professorData
+      overallScore += professor.rating 
+      totalProfessors += 1
+
+   overallScore <- overallScore / totalProfessors
+
+   return overallScore
+
