@@ -1,0 +1,3 @@
+getTotalScore()
+    totalScore = totalProfessorScore + walkScore + breakTimeScore + TODScore + DOWScore
+    return totalScore
