@@ -1,6 +1,0 @@
-1.2.1.3.4 SemesterPlan::getSectionData(courseCode, suggestionPackage)
-	sectionCodes <- []
-	FOR EACH key IN suggestionPackage.classData
-		IF key = courseCode
-			sectionCodes.add(suggestionPackage.classData.get(key).sectionNumber)
-	RETURN sectionCodes
