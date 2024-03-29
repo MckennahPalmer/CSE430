@@ -2,15 +2,9 @@
 
 createSemesterPlans(suggestionPackage)
 
-	major <- suggestionPackage.userPreferences.major
+	major <- suggestionPackage.userPreferences.major.major
 	currentPlan <- suggestionPackage.currentPlan
-
-	// Populate courses taken.
-	coursesTaken = []
-	FOR plan IN currentPlan:
-		sections <- plan.sections
-		FOR section IN sections:
-			coursesTaken.append(section.courseCode)
+	coursesTaken <- suggestionPackage.userPreferences.major.courseRequired
 
 	neededCourseCodes <- getNewClassCodes(userMajor, coursesTaken, suggestionPackage)
 	
