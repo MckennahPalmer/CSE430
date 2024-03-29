@@ -1,0 +1,2 @@
+1.2.1.3.5 SemesterPlan::isInTime(TODPref, DOWPref, TODSection, DOWSection)
+	RETURN TODPref = TODSection AND DOWPref = DOWSection
