@@ -1,0 +1,4 @@
+SemesterPlan(courseCodes, SuggestionPackage)
+    FOR code in courseCodes
+        section = createSectionObjects(code, SuggestionPackage)
+        sections.addItem(section)
