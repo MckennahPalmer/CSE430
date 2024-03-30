@@ -1,0 +1,8 @@
+1.2.1.3.2 getNewClassCodes(coursesTaken, suggestionPackage)
+	coursesRequired <- suggestionPackage.userPreferences.major.coursesRequired
+	FOR index in 0..coursesRequired.length
+		course <- coursesRequired[index]
+		IF course IN coursesTaken
+			coursesRequired.remove(course)
+	return coursesRequired
+	
