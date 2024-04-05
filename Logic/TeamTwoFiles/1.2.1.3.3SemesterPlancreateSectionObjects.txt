@@ -2,7 +2,6 @@
 	section <- Section
 	result <- []
 	TODPref <- suggestionPackage.userPreferences.TOD
-	DOWPref <- suggestionPackage.userPreferences.DOW
 	sectionCodes <- getSectionData(courseCode, suggestionPackage))
 	WHILE NOT sectionCodes.isEmpty()
 		section.courseName <- suggestionPackage.classData.get(classCode).courseName
@@ -14,7 +13,6 @@
 		section.professorDept <- professorData.dept
 		section.startTime <- suggestionPackage.classData.get(classCode).startTime
 		section.endTime <- suggestionPackage.classData.get(classCode).endTime
-		section.days <- suggestionPackage.classData.get(classCode).DOW
 		section.location <- suggestionPackage.mapData.get(classCode)
 		sectionCodes.remove(0)
 		IF startTime < 12
@@ -23,18 +21,7 @@
 			TODSection <- suggestionPackage.userPreferences.TOD.afternoon
 		ELSE
 			TODSection <- suggestionPackage.userPreferences.TOD.evening
-		DOWSection <- []
-		IF section.days.contains(1)
-			DOWSection.add(suggestionPackage.userPreferences.DOW.monday)
-		ELSE IF section.days.contains(2)
-			DOWSection.add(suggestionPackage.userPreferences.DOW.tuesday)
-		ELSE IF section.days.contains(3)
-			DOWSection.add(suggestionPackage.userPreferences.DOW.wednesday)
-		ELSE IF section.days.contains(4)
-			DOWSection.add(suggestionPackage.userPreferences.DOW.thursday)
-		ELSE IF section.days.contains(5)
-			DOWSection.add(suggestionPackage.userPreferences.DOW.friday)
-		IF isInTime(TODPref, DOWPref, TODSection, DOWSection)
+		IF isInTime(TODPref, TODSection)
 			result.add(section)
 	RETURN result
 			
