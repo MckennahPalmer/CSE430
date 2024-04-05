@@ -2,7 +2,7 @@
 	section <- Section
 	result <- []
 	TODPref <- suggestionPackage.userPreferences.TOD
-	sectionCodes <- getSectionData(courseCode, suggestionPackage))
+	sectionCodes <- getSectionData(courseCode, suggestionPackage)
 	WHILE NOT sectionCodes.isEmpty()
 		section.courseName <- suggestionPackage.classData.get(classCode).courseName
 		section.department <- suggestionPackage.classData.get(classCode).department
