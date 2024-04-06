@@ -1,0 +1,3 @@
+initiateRegistration(userSelections):
+    response = federator.manageQueries(userSelections)
+    return response
