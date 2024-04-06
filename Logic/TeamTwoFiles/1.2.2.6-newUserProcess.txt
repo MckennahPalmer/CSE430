@@ -33,6 +33,6 @@ newUserProcess(userPreferences, courseList)
        }
      }
 
-   return <- federator.manageQueries(processSchema)
+   return federator.manageQueries(processSchema)
 
    
