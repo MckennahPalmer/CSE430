@@ -16,7 +16,7 @@ newUserProcess(userPreferences, courseList)
             "breakTime": { "type": "string" },
             "major": { "type": "string" }
           },
-          "required": ["classType", "walkTime", "professorScore", "TOD", "DOW", "breakTime", "major"]
+          "required": ["classType", "walkTime", "professorScore", "TOD", "breakTime", "major"]
         },
         "courseList": {
           "type": "array",
