@@ -13,7 +13,6 @@ newUserProcess(userPreferences, courseList)
             "walkTime": { "type": "string" },
             "professorScore": { "type": "integer" },
             "TOD": { "type": "string" },
-            "DOW": { "type": "string" },
             "breakTime": { "type": "string" },
             "major": { "type": "string" }
           },
@@ -34,9 +33,6 @@ newUserProcess(userPreferences, courseList)
        }
      }
 
-   IF federator.manageQueries(processSchema)
-      return True
-   ELSE 
-      return False
+   return <- federator.manageQueries(processSchema)
 
    
