@@ -6,7 +6,6 @@ ScoreSheet::ScoreSheet(semesterPlan, suggestionPackage)
 	walkScore <- computeWalkScore(suggestionPackage, semesterPlan)
 	breakScore <- computeBreakScore(semesterPlan)
 	TODScore <- computeTODScore(semesterPlan)
-	DOWScore <- computeDOWScore(semesterPlan)
 	
 	totalScore <- computeTotalScore()
 	
