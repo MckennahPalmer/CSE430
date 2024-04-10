@@ -1,0 +1,3 @@
+getMapData()
+   map = federator.getData(mapHttp);
+   return map

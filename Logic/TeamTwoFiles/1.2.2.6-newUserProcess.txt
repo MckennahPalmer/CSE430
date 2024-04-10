@@ -1,0 +1,38 @@
+1.2.2.6 newUserProcess Pseudocode
+
+newUserProcess(userPreferences, courseList)
+
+   processSchema {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {
+        "userPreferences": {
+          "type": "object",
+          "properties": {
+            "classType": { "type": "string" },
+            "walkTime": { "type": "string" },
+            "professorScore": { "type": "integer" },
+            "TOD": { "type": "string" },
+            "breakTime": { "type": "string" },
+            "major": { "type": "string" }
+          },
+          "required": ["classType", "walkTime", "professorScore", "TOD", "breakTime", "major"]
+        },
+        "courseList": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "courseName": { "type": "string" },
+              "courseCode": { "type": "string" },
+              "completed": { "type": "string", "enum": ["pass", "fail"] }
+            },
+            "required": ["courseName", "courseCode", "completed"]
+           }
+         }
+       }
+     }
+
+   return federator.manageQueries(processSchema)
+
+   

@@ -1,0 +1,25 @@
+1.2.1.1.2 createSemesterPlans Pseudocode
+
+createSemesterPlans(suggestionPackage)
+
+	major <- suggestionPackage.userPreferences.major.major
+	currentPlan <- suggestionPackage.currentPlan
+	coursesTaken <- suggestionPackage.userPreferences.major.courseRequired
+
+	neededCourseCodes <- getNewClassCodes(userMajor, coursesTaken, suggestionPackage)
+	
+	combinations <- [[]]  // Initialize with an empty combination
+
+	FOR course IN neededCourseCodes:
+		new_combinations <- []
+		
+		FOR section IN course["sections"]:
+			FOR combination IN combinations:
+				new_combinations.append(combination + [section]) // Combination: [cse430-1] Section: [cse251-2] Output: [cse430-1, cse251-2]
+		
+		combinations <- new_combinations
+
+	FOR combination IN combinations:
+		semesterPlans.append(semesterPlan(combination, suggestionPackage))
+
+	RETURN semesterPlans

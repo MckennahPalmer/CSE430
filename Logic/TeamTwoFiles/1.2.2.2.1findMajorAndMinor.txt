@@ -1,0 +1,15 @@
+1.2.2.2.1 findMajorAndMinor Pseudocode
+
+findMajorAndMinor(major, minor, majorData, minorData) 
+
+   fullMajorData
+   fullMinorData
+
+   if major in majorData
+      fullMajorData <- majorData[major]
+
+   if minor in minorData
+      fullMinorData <- minorData[minor}
+
+   return fullMajorData, fullMinorData
+      

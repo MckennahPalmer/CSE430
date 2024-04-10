@@ -1,0 +1,12 @@
+1.2.1.1.1 createJarvisSuggestion Pseudocode
+
+createJarvisSuggestion(suggestionPackage):
+	
+	semesterPlans <- createSemesterPlans(suggestionPackage)
+	scoreSheets <- createScoreSheets(semesterPlans, suggestionPackage)
+	
+	suggestions <- getJarvisSuggestions(semesterPlans, scoreSheets)
+	
+	topFive <- getTopSuggestions(suggestions)
+	
+	RETURN getBestSuggestion(topFive)

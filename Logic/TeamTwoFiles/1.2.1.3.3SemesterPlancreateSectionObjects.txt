@@ -1,0 +1,31 @@
+1.2.1.3.3 SemesterPlan::createSectionObjects(classCode, suggestionPackage)
+	section <- Section
+	result <- []
+	TODPref <- suggestionPackage.userPreferences.TOD
+	sectionCodes <- getSectionData(courseCode, suggestionPackage)
+	WHILE NOT sectionCodes.isEmpty()
+		section.courseName <- suggestionPackage.classData.get(classCode).courseName
+		section.department <- suggestionPackage.classData.get(classCode).department
+		section.courseCode <- classCode
+		section.sectionNumber <- sectionCodes[0]
+		professorData <- getProfessorData(suggestionPackage.professorData)
+		section.professorName <- professorData.name
+		section.professorDept <- professorData.dept
+		section.startTime <- suggestionPackage.classData.get(classCode).startTime
+		section.endTime <- suggestionPackage.classData.get(classCode).endTime
+		section.location <- suggestionPackage.mapData.get(classCode)
+		sectionCodes.remove(0)
+		IF startTime < 12
+			TODSection <- suggestionPackage.userPreferences.TOD.morning
+		ELSE IF startTime < 17
+			TODSection <- suggestionPackage.userPreferences.TOD.afternoon
+		ELSE
+			TODSection <- suggestionPackage.userPreferences.TOD.evening
+		IF isInTime(TODPref, TODSection)
+			result.add(section)
+	RETURN result
+			
+	
+	
+	
+	

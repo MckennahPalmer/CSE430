@@ -1,0 +1,12 @@
+1.2.1.2.5 getWalkDistance Pseudocode
+
+getWalkDistance(suggestionPackage, location1, location2)
+
+   for location in suggestionPackage.mapData.distance
+
+      // Search for the first location and then return the distance that it takes to get to the second location
+      if location == location1
+         return location[location2]
+   
+      // If the distance is not found then return null
+      return null 
